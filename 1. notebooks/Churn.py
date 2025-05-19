@@ -448,15 +448,15 @@ top_features = {
 }
 
 df_importance = pd.DataFrame(top_features)
-df_importance.sort_values(by="Importance", ascending=True, inplace=True)
+df_importance.sort_values(by="Importance", ascending=False, inplace=True)
 
 plt.figure(figsize=(10, 8))
 barplot = sns.barplot(
-    x="Importance", y="Feature", data=df_importance, palette="viridis"
+    x="Importance", y="Feature", data=df_importance, color="cornflowerblue"
 )
-plt.title("Top 15 Variáveis Mais Importantes (XGBoost - Gain)", fontsize=14)
-plt.xlabel("Gain")
-plt.ylabel("Variável")
+plt.title("Top 15 Most Important Variables (XGBoost - Gain)", fontsize=14)
+plt.xlabel("Gain (%)")
+plt.ylabel("Variable")
 
 for index, value in enumerate(df_importance["Importance"]):
     plt.text(value + 0.1, index, f"{value:.2f}", va='center')
