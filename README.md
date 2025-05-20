@@ -1,17 +1,17 @@
-# 🔍 Projeto de Previsão de Rotatividade de Funcionários (Churn Prediction)
+# Projeto de Previsão de Rotatividade de Funcionários (Churn Prediction)
 
 Este projeto tem como objetivo prever a saída de funcionários de uma empresa com base em dados históricos. Além disso, buscamos identificar os principais fatores que levam ao desligamento, permitindo a adoção de estratégias de retenção mais eficazes.
 
 ---
 
-## 📦 Tema do Projeto
+## Tema do Projeto
 
 **Análise e Previsão de Rotatividade de Funcionários (Employee Attrition)**
 Classificação supervisionada utilizando algoritmos de Machine Learning para prever se um funcionário irá sair da empresa.
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 **Linguagens:**
 
@@ -48,7 +48,7 @@ Classificação supervisionada utilizando algoritmos de Machine Learning para pr
 
 ---
 
-## ✅ O que foi feito (e o que aprendi)
+## O que foi feito (e o que aprendi)
 
 * Realizamos uma análise completa dos dados de Recursos Humanos da empresa.
 * Aplicamos técnicas de pré-processamento, como codificação de variáveis categóricas e normalização de dados.
@@ -66,34 +66,34 @@ Classificação supervisionada utilizando algoritmos de Machine Learning para pr
 
 ---
 
-## 📊 Conclusões: Por que os funcionários estão saindo da empresa?
+## Conclusões: Por que os funcionários estão saindo da empresa?
 
 Com base na análise exploratória e nos modelos de machine learning, especialmente o XGBoost, identificamos os principais fatores que influenciam a rotatividade dos colaboradores. As variáveis com maior ganho (gain) no modelo revelam padrões importantes que ajudam a entender o comportamento dos desligamentos.
 
-### 🔍 Principais fatores de desligamento
+### Principais fatores de desligamento
 
-* **📉 StockOptionLevel (Nível de opção de ações)** – **8.37%**
+* **StockOptionLevel (Nível de opção de ações)** – **8.37%**
   Funcionários sem opção de ações ou com níveis mais baixos têm maior tendência a sair.
 
-* **🏢 Departamento:**
+* **Departamento:**
 
   * **Sales (Vendas)** – **8.11%**
   * **Research & Development (P\&D)** – **7.15%**
     Departamentos estratégicos com maior rotatividade.
 
-* **💼 Cargo (JobRole):**
+* **Cargo (JobRole):**
 
   * **Sales Representative** – **6.37%**
   * **Human Resources** – **6.26%**
     Cargos que enfrentam maior insatisfação ou pressão.
 
-* **📊 JobLevel e JobInvolvement**
+* **JobLevel e JobInvolvement**
   Colaboradores em níveis hierárquicos mais baixos e com pouco envolvimento tendem a sair mais.
 
-* **🙂 Satisfação no trabalho**
+* **Satisfação no trabalho**
   Variáveis como **JobSatisfaction** e **RelationshipSatisfaction** também foram influentes.
 
-### ✅ Conclusão Final
+### Conclusão Final
 
 Os principais motivos para desligamento estão ligados a:
 
@@ -103,7 +103,3 @@ Os principais motivos para desligamento estão ligados a:
 * Ausência de plano de carreira claro
 
 > **Nosso modelo não apenas previu com boa precisão quem pode sair, como também forneceu insights valiosos para que a empresa atue preventivamente com base em dados.**
-
----
-
-## 📁 Estrutura do Projeto
