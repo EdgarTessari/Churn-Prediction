@@ -463,3 +463,18 @@ for index, value in enumerate(df_importance["Importance"]):
 
 plt.tight_layout()
 plt.show()
+
+
+cm = np.array([[343, 27],
+               [32, 338]])
+
+plt.figure(figsize=(6, 5))
+sns.heatmap(cm, annot=True, fmt='d', cmap='GnBu', cbar=False, 
+            xticklabels=['Permaneceu', 'Saiu'], 
+            yticklabels=['Permaneceu', 'Saiu'])
+
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.title('Matriz de Confusão - XGBoost')
+plt.tight_layout()
+plt.show()
